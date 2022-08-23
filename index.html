@@ -125,15 +125,15 @@
 							<div id="texto" class="d-flex flex-column justify-content-center align-items-end text-end">
 								<h1>Comunicate con nuestros expertos</h1>
 
-								<form class="mt-4">
+								<form class="mt-4" method="POST" action="">
+									<!-- NOMBRE -->
+  									<div class="mb-3">
+    									<input type="text" class="form-control" name="nombre" placeholder="Escribe tu nombre" required>
+  									</div>
+
 									<!-- CORREO -->
   									<div class="mb-3">
     									<input type="email" class="form-control" name="correo" placeholder="Escribe tu correo eléctronico" required>
-  									</div>
-
-  									<!-- NOMBRE -->
-  									<div class="mb-3">
-    									<input type="text" class="form-control" name="nombre" placeholder="Escribe tu nombre" required>
   									</div>
 
   									<!-- TELEFONO -->
@@ -146,7 +146,7 @@
   									 	<textarea class="form-control" name="mensaje" rows="2" placeholder="Deja tu mensaje"></textarea>
   									 </div>
 
-  									<a type="submit" class="btn boton mt-3">Submit</a>
+  									<a type="submit" class="btn boton mt-3">Enviar</a>
 								</form>
 							</div>
 						</div>
