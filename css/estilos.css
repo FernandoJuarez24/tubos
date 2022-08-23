@@ -103,18 +103,25 @@ header nav .menu .lista li a.activo{
 	display: none;
 }
 
-.banner01{
+#carrucel .banner01,
+#carrucelContacto .banner01,
+#carrucelProducto .banner01{
   bottom:13rem !important;
   left:10% !important;
   width: 70%;
-  transition-delay: 5s;
+  transition-delay: 3s;
   animation: letrasIzquierda 3s;
 }
-.banner01 h1{
+#carrucel .banner01 h1,
+#carrucelProducto .banner01 h1{
   font-size: 3rem !important;
   font-family: titulos !important;
 }
-.banner01 h2{
+#carrucelContacto .banner01 h1{
+	font-size: 5rem !important;
+  font-family: titulos !important;
+}
+#carrucel .banner01 h2{
 	font-size: 2rem;
 	font-family: textos !important;
 }
@@ -157,24 +164,36 @@ header nav .menu .lista li a.activo{
 	color: white !important;
 }
 
-#about{
+#about,
+#contacto,
+#fichaForm{
 	background-color: white !important;
 }
-#about #texto{
+#about #texto,
+#contacto #texto,
+#fichaForm #texto{
 	width: 100% !important;
 	height: 100% !important;
 }
-#about #texto h1{
+#about #texto h1,
+#contacto #texto h1,
+#fichaForm #texto h1{
 	font-size: 2.5rem !important;
 	font-family: titulos !important;
 }
-#about form{
+#about form,
+#contacto form,
+#fichaForm form{
 	width: 80% !important;
 }
-#about form textarea{
+#about form textarea,
+#contacto form textarea,
+#fichaForm form textarea{
 	resize: none !important;
 }
-#about .boton{
+#about .boton,
+#contacto .boton,
+#fichaForm .boton{
 	background-color: black !important;
 	border: 1px solid white !important;
 	color: white !important;
@@ -183,7 +202,9 @@ header nav .menu .lista li a.activo{
 	transition: .5s !important;
 	padding: .5rem 1.5rem !important;
 }
-#about .boton:hover{
+#about .boton:hover,
+#contacto .boton:hover,
+#fichaform .boton:hover{
 	background-color: transparent !important;
 	border: 1px solid black !important;
 	color: black !important;
@@ -282,6 +303,55 @@ header nav .menu .lista li a.activo{
 	padding: 1rem !important;
 }
 
+#ficha{
+	background-color: white !important;
+}
+#ficha #bienvenida,
+#ficha #usos,
+#ficha #caracteristicas{
+	width: 100% !important;
+	height: 100% !important;
+}
+#ficha #usos, #ficha #aviso{
+	background-color: whitesmoke !important;
+	padding: 1.5rem 0 !important;
+}
+#ficha #bienvenida h1,
+#ficha #usos h1,
+#ficha #caracteristicas h1{
+	font-size: 2rem !important;
+	font-family: titulos !important;
+}
+#ficha #bienvenida p,
+#ficha #caracteristicas p{
+	font-size: 1rem !important;
+	padding-right: 10rem !important;
+}
+#ficha #caracteristicas i{
+	font-size: .6rem !important;
+}
+#ficha #usos p,
+#ficha #aviso p{
+	font-size: 1rem !important;
+}
+#ficha #aviso p{
+	font-family: subTitulos !important;
+}
+#ficha .boton{
+	background-color: black !important;
+	border: 1px solid white !important;
+	color: white !important;
+	font-family: subTitulos !important;
+	font-size: 1rem !important;
+	transition: .5s !important;
+	padding: .5rem 1.5rem !important;
+}
+#ficha .boton:hover{
+	background-color: transparent !important;
+	border: 1px solid black !important;
+	color: black !important;
+}
+
 footer{
 	background-color: grey !important;
 	padding: 3rem 0  0 !important;
@@ -306,6 +376,49 @@ footer #copyright h4{
 	color: black!important;
 	font-family: titulos !important;
 	font-size: 1rem !important;
+}
+
+/* PRELOADER */
+.loading{
+  width: 100%;
+  height: 100vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top:0;
+  left: 0;
+  z-index: 100000;
+  clip-path: circle(100% at 50% 50%);
+  transition: clip-path 0.8s ease-in-out;
+}
+.loading2{
+  clip-path: circle(0% at 50% 50%);
+}
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: white transparent white transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /* MOVIL */
@@ -353,7 +466,7 @@ footer #copyright h4{
 		padding: 10px 0;
 		text-align: center;
 	}
-	.banner01{
+	#carrucel .banner01{
 		bottom: 5rem !important;
 		text-align: center !important;
 		align-items: center !important;
@@ -363,11 +476,11 @@ footer #copyright h4{
 		width: 90% !important;
 		left: 5% !important;
 	}
-	.banner01 h1{
+	#carrucel .banner01 h1{
 		font-size: 2rem !important;
 	}
-	.banner01 .boton,
-	.banner01 .boton2{
+	#carrucel .banner01 .boton,
+	#carrucel .banner01 .boton2{
 		padding: .5rem 2rem !important;
 		width: 100% !important;
 	}
