@@ -123,12 +123,31 @@
 						<!-- TEXTO -->
 						<div class="col-md-8">
 							<div id="texto" class="d-flex flex-column justify-content-center align-items-end text-end">
-								<h1>Servicios Profesionales</h1>
+								<h1>Comunicate con nuestros expertos</h1>
 
-								<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, mollitia aliquam beatae dolorem nisi, quae! Ullam quae deleniti minima amet illum beatae voluptatem praesentium, nam, nobis quisquam? Odio, facilis, dolor?</p>
+								<form class="mt-4">
+									<!-- CORREO -->
+  									<div class="mb-3">
+    									<input type="email" class="form-control" name="correo" placeholder="Escribe tu correo eléctronico" required>
+  									</div>
 
-								<!-- CTA -->
-								<a href="" type="button" class="btn boton mt-4">Contáctanos</a>
+  									<!-- NOMBRE -->
+  									<div class="mb-3">
+    									<input type="text" class="form-control" name="nombre" placeholder="Escribe tu nombre" required>
+  									</div>
+
+  									<!-- TELEFONO -->
+  									<div class="mb-3">
+    									<input type="text" class="form-control" name="tel" placeholder="Escribe tu teléfono" required>
+  									</div>
+
+  									<!-- MENSAJE -->
+  									 <div class="form-group">
+  									 	<textarea class="form-control" name="mensaje" rows="2" placeholder="Deja tu mensaje"></textarea>
+  									 </div>
+
+  									<a type="submit" class="btn boton mt-3">Submit</a>
+								</form>
 							</div>
 						</div>
 					</div>
@@ -156,7 +175,7 @@
 					</div>
 					<!-- MENU -->
 					<div class="row">
-						<div id="cont" class="mb-3 text-center d-none d-md-block text-center">
+						<div id="cont" class="mb-3 text-center d-none d-md-block">
 							<form action="">
 								<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
 							</form>
@@ -173,7 +192,7 @@
 					</div>
 
 					<!-- IMG -->
-					<div class="grid" id="grid">
+					<div class="grid d-none d-md-block" id="grid">
 						<!-- ITEM 1 -->
 						<div class="item" 
 							 data-categoria="tuberíaalcantarillado"
@@ -313,7 +332,126 @@
 								</a>
 							</div>
 						</div>
-					</div>		
+					</div>
+
+					<!-- CARRUCEL MOVIL -->
+					<div class="row d-block d-md-none">
+						<div id="carouselExample" class="carousel carousel-dark slide" data-bs-ride="carousel">
+							<!-- BANNERS -->
+							<div class="carousel-inner">
+								<!-- PRODUCTO 1 -->
+								<div class="carousel-item active">
+								    <a href="">
+								    	<img src="img/productos/producto01.jpg" class="d-block w-100" alt="...">
+									    <div class="carousel-caption">
+	    									<h5>Tubería alcantarillado pluvial y sanitario</h5>
+	    								</div>
+								    </a>
+								</div>
+
+								<!-- PRODUCTO 2 -->
+								<div class="carousel-item ">
+								    <a href="">
+								    	<img src="img/productos/producto02.jpg" class="d-block w-100" alt="...">
+									    <div class="carousel-caption">
+	    									<h5>Tubería de polietileno de alta densidad</h5>
+	    								</div>
+								    </a>
+								</div>
+
+								<!-- PRODUCTO 3 -->
+								<div class="carousel-item ">
+								    <a href="">
+								    	<img src="img/productos/producto03.jpg" class="d-block w-100" alt="...">
+									    <div class="carousel-caption">
+	    									<h5>Tubería alcantarillado sanitario</h5>
+	    								</div>
+								    </a>
+								</div>
+
+								<!-- PRODUCTO 4 -->
+								<div class="carousel-item">
+								    <a href="">
+								    	<img src="img/productos/producto04.jpg" class="d-block w-100" alt="...">
+									    <div class="carousel-caption">
+	    									<h5>Tubería hidráulica<br>(serie métrica)</h5>
+	    								</div>
+								    </a>
+								</div>
+
+								<!-- PRODUCTO 5 -->
+								<div class="carousel-item">
+								    <a href="">
+								    	<img src="img/productos/producto05.jpg" class="d-block w-100" alt="...">
+									    <div class="carousel-caption">
+	    									<h5>Tubería hidráulica (serie inglesa con bocina)</h5>
+	    								</div>
+								    </a>
+								</div>
+
+								<!-- PRODUCTO 6 -->
+								<div class="carousel-item">
+								    <a href="">
+								    	<img src="img/productos/producto06.jpg" class="d-block w-100" alt="...">
+									    <div class="carousel-caption">
+	    									<h5>Tubería hidráulica<br>(serie inglesa)</h5>
+	    								</div>
+								    </a>
+								</div>
+
+								<!-- PRODUCTO 7 -->
+								<div class="carousel-item">
+								    <a href="">
+								    	<img src="img/productos/producto07.jpg" class="d-block w-100" alt="...">
+									    <div class="carousel-caption">
+	    									<h5>Tubería<br>sanitaria</h5>
+	    								</div>
+								    </a>
+								</div>
+
+								<!-- PRODUCTO 8 -->
+								<div class="carousel-item ">
+								    <a href="">
+								    	<img src="img/productos/producto08.jpg" class="d-block w-100" alt="...">
+									    <div class="carousel-caption">
+	    									<h5>Tubería corrugada conduit eléctrico</h5>
+	    								</div>
+								    </a>
+								</div>
+
+								<!-- PRODUCTO 9 -->
+								<div class="carousel-item ">
+								    <a href="">
+								    	<img src="img/productos/producto09.jpg" class="d-block w-100" alt="...">
+									    <div class="carousel-caption">
+	    									<h5>Tubería<br>conduit</h5>
+	    								</div>
+								    </a>
+								</div>
+
+								<!-- PRODUCTO 10 -->
+								<div class="carousel-item">
+								    <a href="">
+								    	<img src="img/productos/producto10.jpg" class="d-block w-100" alt="...">
+									    <div class="carousel-caption">
+	    									<h5>Tubería<br>polipropileno</h5>
+	    								</div>
+								    </a>
+								</div>
+							</div>
+
+							<!-- ARROW -->
+							<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+
+							<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>	
+					</div>
 				</div>
 
 				<!-- ESPACIO -->
