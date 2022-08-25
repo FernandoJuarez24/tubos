@@ -322,17 +322,28 @@ header nav .menu .lista li a.activo{
 	font-size: 2rem !important;
 	font-family: titulos !important;
 }
-#ficha #bienvenida p,
-#ficha #caracteristicas p{
+#ficha #bienvenida h1{
+	padding-left: 5rem !important;
+}
+#ficha #bienvenida p{
 	font-size: 1rem !important;
-	padding-right: 10rem !important;
+	padding-left: 5rem !important;
+}
+#ficha #caracteristicas p{
+	padding-right: 5rem !important;
 }
 #ficha #caracteristicas i{
 	font-size: .6rem !important;
 }
+#ficha #caracteristicas p span{
+	font-family: titulos;
+}
 #ficha #usos p,
 #ficha #aviso p{
 	font-size: 1rem !important;
+}
+#ficha #usos #texto .element{
+	border-right: 1px solid black !important;
 }
 #ficha #aviso p{
 	font-family: subTitulos !important;
@@ -419,6 +430,31 @@ footer #copyright h4{
   100% {
     transform: rotate(360deg);
   }
+}
+
+/*HOME*/
+.home{
+  position:fixed;
+  bottom:15px;
+  right: 100%;
+  width: 50px;
+  height: 50px;
+  padding:10px;
+  background: black !important;
+  border: 3px solid whitesmoke !important;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 20px;
+  color:whitesmoke;
+  z-index: 1000;
+  border-radius: 50%;
+}
+.home:hover{
+  background:whitesmoke !important;
+  border: 3px solid black !important;
+  color:black !important;
 }
 
 /* MOVIL */
