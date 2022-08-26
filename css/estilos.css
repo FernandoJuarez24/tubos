@@ -1,5 +1,5 @@
 :root{
-
+	--azul: #0067ab;
 }
 /* RESET */
 *{
@@ -93,7 +93,7 @@ header nav .menu .lista li a{
 	font-family: subTitulos !important;
 }
 header nav .menu .lista li a:hover{
-	opacity: 0.6 !important;
+	color: var(--azul) !important;
 }
 header nav .menu .lista li a.activo{
 	background: white;
@@ -150,7 +150,7 @@ header nav .menu .lista li a.activo{
 }
 
 .banner01 .boton2{
-	background-color: black !important;
+	background-color: var(--azul) !important;
 	border: 1px solid white !important;
 	color: white !important;
 	font-family: subTitulos !important;
@@ -194,7 +194,7 @@ header nav .menu .lista li a.activo{
 #about .boton,
 #contacto .boton,
 #fichaForm .boton{
-	background-color: black !important;
+	background-color: var(--azul) !important;
 	border: 1px solid white !important;
 	color: white !important;
 	font-family: subTitulos !important;
@@ -204,10 +204,10 @@ header nav .menu .lista li a.activo{
 }
 #about .boton:hover,
 #contacto .boton:hover,
-#fichaform .boton:hover{
+#fichaForm .boton:hover{
 	background-color: transparent !important;
-	border: 1px solid black !important;
-	color: black !important;
+	border: 1px solid var(--azul) !important;
+	color: var(--azul) !important;
 }
 
 #productos{
@@ -292,7 +292,7 @@ header nav .menu .lista li a.activo{
 	transform: scale(1.1);
 }
 #productos .grid .item h2{
-	background-color: black !important;
+	background-color: var(--azul) !important;
 	width: 100% !important;
 	text-align: center !important;
 	font-family: subTitulos !important;
@@ -349,7 +349,7 @@ header nav .menu .lista li a.activo{
 	font-family: subTitulos !important;
 }
 #ficha .boton{
-	background-color: black !important;
+	background-color: var(--azul) !important;
 	border: 1px solid white !important;
 	color: white !important;
 	font-family: subTitulos !important;
@@ -359,12 +359,12 @@ header nav .menu .lista li a.activo{
 }
 #ficha .boton:hover{
 	background-color: transparent !important;
-	border: 1px solid black !important;
-	color: black !important;
+	border: 1px solid var(--azul) !important;
+	color: var(--azul) !important;
 }
 
 footer{
-	background-color: grey !important;
+	background-color: var(--azul) !important;
 	padding: 3rem 0  0 !important;
 }
 footer h3{
@@ -393,7 +393,7 @@ footer #copyright h4{
 .loading{
   width: 100%;
   height: 100vh;
-  background: black;
+  background: var(--azul);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -440,7 +440,7 @@ footer #copyright h4{
   width: 50px;
   height: 50px;
   padding:10px;
-  background: black !important;
+  background: var(--azul) !important;
   border: 3px solid whitesmoke !important;
   display: flex;
   justify-content: center;
@@ -453,8 +453,8 @@ footer #copyright h4{
 }
 .home:hover{
   background:whitesmoke !important;
-  border: 3px solid black !important;
-  color:black !important;
+  border: 3px solid var(--azul) !important;
+  color:var(--azul) !important;
 }
 
 /* MOVIL */
