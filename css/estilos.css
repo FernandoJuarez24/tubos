@@ -19,6 +19,9 @@
 .row{
   margin:0 !important;
 }
+a{
+	text-decoration: none !important;
+}
 h1,h2,h3,h4,h5{
 	margin:0 !important;
 }
@@ -462,7 +465,7 @@ footer #copyright h4{
 	.burger > i{
 		display: block;
 		position: absolute;
-		top: 20px;
+		top: 25px;
 		right: 30px;
 		font-size: 35px;
 		cursor: pointer;
@@ -477,7 +480,7 @@ footer #copyright h4{
 		padding: 1rem 0 !important;
 	}
 	header nav .logo{
-		width: 35%;
+		width: 45%;
 	}
 	header nav .menu{
 		position: absolute;
@@ -511,6 +514,21 @@ footer #copyright h4{
 		flex-direction: column !important;
 		width: 90% !important;
 		left: 5% !important;
+	}
+	#carrucelContacto .banner01,
+	#carrucelProducto .banner01{
+		bottom: 8rem !important;
+		text-align: center !important;
+		align-items: center !important;
+		justify-content: center !important;
+		display: flex !important;
+		flex-direction: column !important;
+		width: 90% !important;
+		left: 5% !important;
+	}
+	#carrucelProducto .banner01 h1,
+	#carrucelContacto .banner01 h1{
+		font-size: 2.5rem !important;
 	}
 	#carrucel .banner01 h1{
 		font-size: 2rem !important;
@@ -557,7 +575,8 @@ footer #copyright h4{
 	footer #redes i {
 		font-size: 2.5rem !important;
 	}
-	#about #texto h1{
+	#about #texto h1,
+	#fichaForm #texto h1{
 		font-size: 2rem !important;
 	}
 	#about form{
@@ -575,5 +594,67 @@ footer #copyright h4{
 	}
 	#productos .carousel-item  a{
 		text-decoration: none !important;
+	}
+	#ficha #bienvenida{
+		display: flex !important;
+		justify-content: center !important;
+		align-items: center !important;
+		text-align: center !important;
+		padding: 3rem 0 !important;
+	}
+	#ficha #bienvenida h1,
+	#ficha #bienvenida p{
+		padding-left: 0 !important;
+	}
+	.accordion-button:not(.collapsed){
+		color: black !important;
+		background-color: white !important;
+	}
+	#usos h2{
+		font-family: titulos !important;
+	}
+	#usos h2 a{
+		font-size: 1.5rem !important;
+	}
+	#usos .text{
+		border-bottom: 1px solid black !important;
+		padding: 1rem !important;
+		text-align: center !important;
+	}
+	#ficha #caracteristicas{
+		padding: 2rem 0 !important;
+		display: flex !important;
+		flex-direction: column !important;
+		justify-content: center !important;
+		align-items: center !important;
+		text-align: center !important;
+	}
+	#ficha #caracteristicas #titulo{
+		text-align: center !important;
+	}
+	#ficha #caracteristicas #texto{
+		display: flex !important;
+		flex-direction: column !important;
+		justify-content: center !important;
+		align-items: center !important;
+		text-align: center !important;
+	}
+	#ficha #caracteristicas i{
+		display: none !important;
+	}
+	#ficha #caracteristicas p{
+		padding-right: 0 !important;
+	}
+	#fichaForm #texto,
+	#contacto #texto{
+		display: flex !important;
+		flex-direction: column !important;
+		justify-content: center !important;
+		align-items: center !important;
+		text-align: center !important;
+		padding: 2rem 0 !important;
+	}
+	#about form, #contacto form, #fichaForm form{
+		width: 100% !important;
 	}
 }
