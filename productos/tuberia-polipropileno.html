@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ducty Tubos</title>
+
+	<!-- BOOTSTRAP -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+	<!-- ESTILOS -->
+	<link rel="stylesheet" href="../css/estilos.css">
+
+	<!-- FONT AWESOME -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+	<!-- LOADING -->
+	<div class="loading" id="loading">
+		<div class="lds-dual-ring"></div>
+	</div>
+
+	<!-- MENU -->
+	<header>
+		<div class="row">
+			<!-- ESPACIO -->
+			<div class="col-1"></div>
+
+			<!-- ESPACIO -->
+			<div class="col-10">
+				<nav>
+					<div class="logo">
+						<h1>
+							<!-- LOGO -->
+							<a href="../index.html">
+								<img src="../img/logo.png" alt="">
+							</a>
+
+							<!-- ICONO BURGUER -->
+							<span class="burger">
+								<!-- BARRAS NORMALES 
+								<i class="fas fa-bars"></i>-->
+
+								<!-- BARRAS SEGUNDA MOVIDA -->
+								<i class="fa-solid fa-bars-staggered"></i>
+
+								<!-- BARRA CON RECUADRO 
+								<i class="fa-solid fa-chart-bar"></i> -->
+							</span>
+						</h1>
+					</div>
+
+					<div class="menu">
+						<ul class="lista">
+							<li class="pe-md-4"><a href="../index.html">Home </a></li>
+							<li class="pe-md-4"><a href="../index.html#productos">Productos</a></li>
+							<li class=""><a href="../contacto.html">Contacto</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>		
+
+			<!-- ESPACIO -->
+			<div class="col-1"></div>
+		</div>		
+	</header>
+
+	<main>
+		<!-- CARRUCEL -->
+		<section id="carrucelProducto">
+			<div class="row">
+				<div class="contenedor">
+					<div id="CarouselSlider" class="carousel carousel-dark slide" data-bs-ride="carousel">
+						<!-- BANNERS -->
+						 <div class="carousel-inner" id="banners">
+						    <!-- BANNER 1 -->
+						    <div class="carousel-item banner active" data-bs-interval="6000"> <!-- NOTA - 1000 = 1	segundo -->
+						    	<!-- IMG -->
+						        <img src="../img/banners/bannerTuberia00.jpg" class="d-md-block d-none w-100" alt="Contacto">
+
+						        <!-- MOVIL -->
+						        <img src="../img/banners/bannerTuberia00M.jpg" class="d-block d-md-none w-100" alt="Tuberias">
+
+								<!-- TEXTO -->
+								<div class="row text-center">
+								   	<div class="carousel-caption banner01 text-white text-start">
+							            <h1 class="">Tubería polipropileno</h1>
+							        </div>	
+								</div>	
+						    </div>
+						</div>
+					</div>
+				</div>					
+			</div>
+
+				<!-- ESPACIO -->
+				<div class="col-1"></div>
+			</div>
+		</section>
+
+		<!-- FICHA -->
+		<section id="ficha">
+			<!-- BIENVENIDA -->
+			<div class="row">
+				<!-- ESPACIO -->
+				<div class="col-1"></div>
+
+				<!-- CONTENEDOR -->
+				<div class="col-10">
+					<div class="row">
+						<!-- IMG -->
+						<div class="col-md-4">
+							<div id="imagen">
+								<img src="../img/productos/producto0.jpg" alt="" class="w-100">
+							</div>
+						</div>
+
+						<!-- TEXTO -->
+						<div class="col-md-8">
+							<div id="bienvenida" class="d-flex flex-column justify-content-center align-items-end text-end">
+								<!-- TITULO -->
+								<div id="titulo" class="mb-4">
+									<h1>Tubería polipropileno</h1>
+								</div>
+
+								<!-- TEXTO -->
+								<div id="texto">
+									<p>l polipropileno es un compuesto de la familia de las Poli olefinas, tubería lisa, color chicle, olor a resina y resiste a la intemperie. Está disponible de 1” a 12” solo en CED 80.</p>
+								</div>
+
+								<!-- CTA -->
+								<a href="#fichaForm" type="button" class="btn boton mt-4">Contáctanos</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- ESPACIO -->
+				<div class="col-1"></div>
+			</div>
+
+			<!-- USOS -->
+			<div class="row" id="usos">
+				<!-- ESPACIO -->
+				<div class="col-1"></div>
+
+				<!-- CONTENEDOR -->
+				<div class="col-10">
+					<!-- ELEMENTOS  PC -->
+					<div class="row d-none d-md-block">
+						<!-- TEXTO -->
+						<div id="usos" class="d-flex flex-column justify-content-center align-items-center text-center">
+							<!-- TITULO -->
+							<div id="titulo" class="mb-3">
+								<h1>Ventajas</h1>
+							</div>
+
+							<!-- TEXTO -->
+							<div id="texto" class="d-flex">
+								<p class="pe-3 element">Ligero y fácil de transportar</p>
+								<p class="px-3 element">Autosustentable</p>
+								<p class="px-3 element">Alta resistencia a la fricción</p>
+								<p class="px-3 element">Excelentes propiedades a la fricción</p>
+								<p class="px-3 element">Excelente propiedad aislante</p>
+								<p class="ps-3">Gran resistencia de agentes químicos como ácidos</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- ELEMENTOS MOVIL -->
+					<div class="row d-md-none d-block">
+						<div class="accordion accordion-flush" id="accordionFlushExample">
+  							<div class="accordion-item">
+    							<h2 class="accordion-header" id="flush-headingOne">
+      								<a class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        								Ventajas
+      								</a>
+    							</h2>
+
+    							<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      								<div class="accordion-body">
+      									<p class="text">Ligero y fácil de transportar</p>
+										<p class="text">Autosustentable</p>
+										<p class="text">Alta resistencia a la fricción</p>
+										<p class="text">Excelentes propiedades a la fricción</p>
+										<p class="text">Excelente propiedad aislante</p>
+										<p class="text">Gran resistencia de agentes químicos como ácidos</p>
+      								</div>
+    							</div>
+  							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- ESPACIO -->
+				<div class="col-1"></div>
+			</div>
+
+			<!-- CARACTERISTICAS -->
+			<div class="row">
+				<!-- ESPACIO -->
+				<div class="col-1"></div>
+
+				<!-- CONTENEDOR -->
+				<div class="col-10">
+					<div class="row">
+						<!-- TEXTO -->
+						<div class="col-md-8 order-2 order-md-1">
+							<div id="caracteristicas" class="d-flex flex-column justify-content-center align-items-start text-start">
+								<!-- TITULO -->
+								<div id="titulo" class="mb-4">
+									<h1>Beneficios</h1>
+								</div>
+
+								<!-- TEXTO -->
+								<div id="texto">
+									<p class="d-flex justify-content-start align-items-center"><i class="fa-solid fa-circle-dot me-2"></i>Es el polipropileno más liviano que se conoce, es altamente cristalino y por lo tanto es recio y duro.</p>
+
+									<p class="d-flex justify-content-start align-items-start"><i class="fa-solid fa-circle-dot me-2 pt-1"></i>Se usa para instalaciones que transportan líquidos que tienden a desprender sedimentos, es ideal ya que no permite incrustaciones, no contamina y no presenta efectos de migración de metales pesados.</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- IMG -->
+						<div class="col-md-4 order-1 order-md-2">
+							<div id="imagen">
+								<img src="../img/productos/producto0.jpg" alt="" class="w-100">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- ESPACIO -->
+				<div class="col-1"></div>
+			</div>
+
+			<!-- AVISO -->
+			<div class="row" id="aviso">
+				<!-- ESPACIO -->
+				<div class="col-1"></div>
+
+				<!-- CONTENEDOR -->
+				<div class="col-10">
+					<div class="row">
+						<!-- TEXTO -->
+						<div id="aviso" class="d-flex flex-column justify-content-center align-items-center text-center">
+							<!-- TEXTO -->
+							<div id="texto">
+								<p>Es probada con las normas correspondientes, en el laboratorio acreditado ante la EMA (Entidad Mexicana de Acreditación)</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- ESPACIO -->
+				<div class="col-1"></div>
+			</div>
+		</section>
+
+		<!-- FORMULARIO -->
+		<section id="fichaForm">
+			<div class="row">
+				<!-- ESPACIO -->
+				<div class="col-1"></div>
+
+				<!-- CONTENEDOR -->
+				<div class="col-10">
+					<div class="row">
+						<!-- IMG -->
+						<div class="col-md-4">
+							<div id="imagen">
+								<img src="../img/contacto.jpg" alt="Contacto" class="w-100">
+							</div>
+						</div>
+
+						<!-- FORMULARIO -->
+						<div class="col-md-8">
+							<div id="texto" class="d-flex flex-column justify-content-center align-items-end text-end">
+								<h1>Comunicate con nuestros expertos</h1>
+
+								<form class="mt-4" method="POST" action="">
+									<!-- NOMBRE -->
+	  								<div class="mb-3">
+	    								<input type="text" class="form-control" name="nombre" placeholder="Escribe tu nombre" required>
+	  								</div>
+
+									<!-- CORREO -->
+	  								<div class="mb-3">
+	    								<input type="email" class="form-control" name="correo" placeholder="Escribe tu correo eléctronico" required>
+	  								</div>
+
+	  								<!-- TELEFONO -->
+	  								<div class="mb-3">
+	    								<input type="text" class="form-control" name="tel" placeholder="Escribe tu teléfono" required>
+	  								</div>
+
+	  								<!-- MENSAJE -->
+	  								<div class="form-group">
+	  									<textarea class="form-control" name="mensaje" rows="2" placeholder="Deja tu mensaje"></textarea>
+	  								</div>
+
+	  								<a type="submit" class="btn boton mt-3">Enviar</a>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- ESPACIO -->
+				<div class="col-1"></div>
+			</div>							
+		</section>			
+	</main>
+
+	<footer>
+		<div class="row">
+			<!-- ESPACIO -->
+			<div class="col-1"></div>
+
+			<!-- CONTENEDOR -->
+			<div class="col-10">
+				<div class="row">
+					<!-- COLUMNA 1 -->
+					<div class="col-md-4">
+						<div id="cont" class="d-flex flex-column justify-content-top align-items-start text-start">
+							<h3>Navegación</h3>
+
+							<ul class="lista mt-2">
+								<li class="pe-md-5"><a href="../index.html">Home </a></li>
+								<li class="pe-md-5"><a href="../index.html#productos">Productos</a></li>
+								<li class=""><a href="../contacto.html">Contacto</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- COLUMNA 2 -->
+					<div class="col-md-4">
+						<div id="cont" class="d-flex flex-column justify-content-top align-items-center text-center">
+							<h3>Redes sociales</h3>
+
+							<ul id="redes" class="mt-2 d-flex">
+								<li class="pe-md-3">
+									<a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+								</li>
+								
+								<li class="pe-md-3 px-3">
+									<a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+								</li>
+
+								<li class="">
+									<a href="#"><i class="fa-brands fa-square-instagram"></i></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- COLUMNA 3 -->
+					<div class="col-md-4">
+						<div id="cont" class="d-flex flex-column justify-content-top align-items-end text-end">
+							<img src="../img/logoB.png" class="w-50" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- ESPACIO -->
+			<div class="col-1"></div>
+		</div>
+
+		<div class="row">
+			<div id="copyright" class="text-center">
+				<h4>Derechos reservados | 2022</h4>
+			</div>
+		</div>
+	</footer>
+
+	<!-- HOME -->
+	<div class="home">
+		<span class="fas fa-level-up-alt"></span>
+	</div>					
+
+
+<!-- BOOTSTRAP -->
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+<!-- MENU -->
+<script src="../js/menu.js"></script>
+
+<!-- HOME -->
+<script src="../js/home.js"></script>
+
+<!-- LOADING -->
+<script src="../js/loading.js"></script>
+
+<!-- PRODUCTOS -->
+<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+<script src="js/productos.js"></script>
+</body>
+</html>
