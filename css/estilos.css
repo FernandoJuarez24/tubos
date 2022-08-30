@@ -109,7 +109,7 @@ header nav .menu .lista li a.activo{
 #carrucel .banner01,
 #carrucelContacto .banner01,
 #carrucelProducto .banner01{
-  bottom:13rem !important;
+  bottom:11rem !important;
   left:10% !important;
   width: 70%;
   transition-delay: 3s;
@@ -524,6 +524,7 @@ footer #copyright h4{
 		flex-direction: column !important;
 		width: 90% !important;
 		left: 5% !important;
+		bottom: 7rem !important;
 	}
 	#carrucelProducto .banner01 h1,
 	#carrucelContacto .banner01 h1{
