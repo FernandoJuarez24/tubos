@@ -391,6 +391,9 @@ footer #copyright h4{
 	font-family: titulos !important;
 	font-size: 1rem !important;
 }
+footer #copyright p{
+	font-size: .5rem !important;
+}
 
 /* PRELOADER */
 .loading{
