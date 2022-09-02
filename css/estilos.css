@@ -112,8 +112,8 @@ header nav .menu .lista li a.activo{
   bottom:11rem !important;
   left:10% !important;
   width: 70%;
-  transition-delay: 3s;
-  animation: letrasIzquierda 3s;
+  transition-delay: 1s;
+  animation: letrasIzquierda 2s;
 }
 #carrucel .banner01 h1,
 #carrucelProducto .banner01 h1{
@@ -130,7 +130,7 @@ header nav .menu .lista li a.activo{
 }
 @keyframes letrasIzquierda{
   from{
-    margin-left: -100%;
+    margin-left: -200%;
   }
   to{
     margin-left:0%;
@@ -509,7 +509,7 @@ footer #copyright p{
 		text-align: center;
 	}
 	#carrucel .banner01{
-		bottom: 5rem !important;
+		bottom: 5.5rem !important;
 		text-align: center !important;
 		align-items: center !important;
 		justify-content: center !important;
@@ -548,6 +548,7 @@ footer #copyright p{
 	}
 	#carrucel .banner01 h1{
 		font-size: 2rem !important;
+		padding: 1rem 2.5rem !important;
 	}
 	#carrucel .banner01 .boton,
 	#carrucel .banner01 .boton2{
