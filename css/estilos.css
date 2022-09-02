@@ -542,6 +542,10 @@ footer #copyright p{
 		top: 2rem !important;
 		position: relative !important;
 	}
+	#carrucelProducto .banner01 .titulo3{
+		bottom: 4rem !important;
+		position: relative !important;
+	}
 	#carrucel .banner01 h1{
 		font-size: 2rem !important;
 	}
