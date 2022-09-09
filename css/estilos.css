@@ -75,7 +75,7 @@ header nav{
 	background-color: transparent !important;
 }
 header nav .logo{
-	width: 15%;
+	width: 20%;
 }
 header nav .logo img{
 	width: 100%;
@@ -105,7 +105,11 @@ header nav .menu .lista li a.activo{
 .burger > i{
 	display: none;
 }
-
+#carrucel,
+#carrucelProducto,
+#carrucelContacto{
+	padding-top: 3rem !important;
+}
 #carrucel .banner01,
 #carrucelContacto .banner01,
 #carrucelProducto .banner01{
@@ -188,6 +192,14 @@ header nav .menu .lista li a.activo{
 #contacto form,
 #fichaForm form{
 	width: 80% !important;
+}
+#contacto #video,
+#fichaForm #video{
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+	width: 100% !important;
+	height: 100% !important;
 }
 #about form textarea,
 #contacto form textarea,
@@ -443,16 +455,16 @@ footer #copyright p{
   position:fixed;
   bottom:15px;
   right: 100%;
-  width: 50px;
-  height: 50px;
-  padding:10px;
+  width: 60px;
+  height: 60px;
+  padding:6px;
   background: var(--azul) !important;
   border: 3px solid whitesmoke !important;
   display: flex;
   justify-content: center;
   cursor: pointer;
   transition: 0.5s;
-  font-size: 20px;
+  font-size: 2rem;
   color:whitesmoke;
   z-index: 1000;
   border-radius: 50%;

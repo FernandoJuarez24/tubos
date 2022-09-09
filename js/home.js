@@ -8,8 +8,8 @@ window.onscroll = () => {
     	document.querySelector('.home').style.right = '-100%';
     }
 
-    document.querySelector('.home').addEventListener('click', () => {
+    /*document.querySelector('.home').addEventListener('click', () => {
     	document.body.scrollTop = '0';
     	document.documentElement.scrollTop = '0';
-    });
+    });*/
 }

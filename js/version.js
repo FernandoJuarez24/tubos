@@ -1,1 +1,1 @@
-document.write('<p class="text-center text-black">Version: 1.0.1</p>');
+document.write('<p class="text-center text-black">Version: 1.0.2</p>');

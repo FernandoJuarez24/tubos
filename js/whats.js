@@ -1,0 +1,1 @@
+document.write('<a href="https://api.whatsapp.com/send?phone=525572166413" class="text-reset" target="_blank">');
