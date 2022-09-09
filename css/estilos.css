@@ -530,7 +530,16 @@ footer #copyright p{
 		width: 90% !important;
 		left: 5% !important;
 	}
-	#carrucelContacto .banner01,
+	#carrucelContacto .banner01{
+		text-align: center !important;
+		align-items: center !important;
+		justify-content: center !important;
+		display: flex !important;
+		flex-direction: column !important;
+		width: 90% !important;
+		left: 5% !important;
+		bottom: 15rem !important;
+	}
 	#carrucelProducto .banner01{
 		text-align: center !important;
 		align-items: center !important;
