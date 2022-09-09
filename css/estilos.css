@@ -105,6 +105,9 @@ header nav .menu .lista li a.activo{
 .burger > i{
 	display: none;
 }
+#contacto{
+	padding-top: 10rem !important;
+}
 #carrucel,
 #carrucelProducto,
 #carrucelContacto{
