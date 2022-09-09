@@ -539,7 +539,7 @@ footer #copyright p{
 		flex-direction: column !important;
 		width: 90% !important;
 		left: 5% !important;
-		bottom: 7rem !important;
+		bottom: 10rem !important;
 	}
 	#carrucelProducto .banner01 h1,
 	#carrucelContacto .banner01 h1{
@@ -681,7 +681,7 @@ footer #copyright p{
 		justify-content: center !important;
 		align-items: center !important;
 		text-align: center !important;
-		padding: 2rem 0 !important;
+		padding: 2rem !important;
 	}
 	#about form, #contacto form, #fichaForm form{
 		width: 100% !important;
