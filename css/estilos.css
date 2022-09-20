@@ -698,4 +698,7 @@ footer #copyright p{
 	#about form, #contacto form, #fichaForm form{
 		width: 100% !important;
 	}
+	#contacto{
+		padding-top: 7rem !important;
+	}
 }
