@@ -118,7 +118,7 @@ header nav .menu .lista li a.activo{
 #carrucelProducto .banner01{
   bottom:11rem !important;
   left:10% !important;
-  width: 70%;
+  width: 50%;
   transition-delay: 1s;
   animation: letrasIzquierda 2s;
 }
