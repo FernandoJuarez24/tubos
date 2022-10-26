@@ -409,6 +409,12 @@ footer #copyright h4{
 footer #copyright p{
 	font-size: .5rem !important;
 }
+footer .direccion{
+	padding-left: 10rem !important;
+}
+footer .tel{
+	font-size: 1.5rem !important;
+}
 
 /* PRELOADER */
 .loading{
@@ -701,4 +707,7 @@ footer #copyright p{
 	#contacto{
 		padding-top: 7rem !important;
 	}
+	footer .direccion{
+	padding-left: 0rem !important;
+}
 }
