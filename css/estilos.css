@@ -483,6 +483,16 @@ footer .tel{
   border: 3px solid var(--azul) !important;
   color:var(--azul) !important;
 }
+#caracteristicas .bordeTitulo{
+	border: 1px solid black !important;
+	text-align: center !important;
+}
+#caracteristicas .borde{
+	border-right: 1px solid black !important;
+	border-left: 1px solid black !important;
+	border-bottom: 1px solid black !important;
+	text-align: center !important;
+}
 
 /* MOVIL */
 @media (max-width: 500px){
